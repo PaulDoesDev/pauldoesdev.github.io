@@ -1,21 +1,28 @@
 html,
 body {
-  height: 100%;
-  background-color: black;
-  color: white;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco",
+        "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 4vw;
 }
 
 html {
-  display: table;
-  margin: auto;
+    display: table;
+    margin: auto;
 }
 
 body {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.img-container {
-  text-align: center;
-  display: block;
+.img {
+    max-width: 2vw;
+    max-height: 2vw;
+    display: grid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
